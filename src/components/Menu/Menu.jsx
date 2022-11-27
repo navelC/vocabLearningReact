@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useLoading} from "../../hooks"
 
-const listItem = [{ "Home": ["phòng khách", "phòng ngủ", "kệ tủ", "bàn trang điểm"]}, "căn hộ & nhà ở", "Sản phẩm nội thất","Thiết bị phụ kiện bếp", "báo giá", "Show room", "video", "Xưởng sản xuất", "liên hệ"]
+const listItem = ["Home", "danh mục 1", {"danh mục 2":["danh mục 2.1", "danh mục 2.2"]}]
 console.log(listItem)
 const Menu = () => {
     return (
