@@ -1,4 +1,4 @@
-import {Home, NotFound } from "../pages";
+import {Home, Quizz } from "../pages";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -10,13 +10,8 @@ export default [
     },
   },
   {
-    path: "/admin",
-    component: Home,
+    path: "/quizz",
+    component: Quizz,
     exact: true,
-  },
-  {
-    path: ["*"],
-    exact: true,
-    component: NotFound,
   },
 ];
